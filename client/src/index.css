@@ -6,3 +6,7 @@
   --font-inter: "Inter", sans-serif;
   --font-space-grotesk: "Space Grotesk", sans-serif;
 }
+
+body {
+  background-color: #ECF0F6;
+}
