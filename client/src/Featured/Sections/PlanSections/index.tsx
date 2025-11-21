@@ -4,7 +4,13 @@ const PlanSections = () => {
   return (
     <section className="container mx-auto max-w-[1440px]">
       <div className="flex items-center justify-center flex-col gap-10">
-        <HeadingText title="Digital Marketing Plans" />
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1200"
+        >
+          <HeadingText title="Digital Marketing Plans" />
+        </div>
         <div className="flex items-center gap-[21px]">
           <button className="h-14 px-8 py-2.5 rounded-2xl bg-[#0707B0] hover:bg-[#0707B0] duration-300 cursor-pointer text-white border border-transparent text-[20px] font-inter font-normal leading-6">
             Monthly
@@ -17,7 +23,13 @@ const PlanSections = () => {
           </button>
         </div>
         <div className="grid grid-cols-3 gap-4">
-          <div className="free pl-[111px] pt-[82px] pb-[83px] pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="500"
+            data-aos-easing="ease-in-sine"
+            className="free pl-[111px] pt-[82px] pb-[83px] pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]"
+          >
             <h2 className="text-[#060689] font-space-grotesk text-[42px] font-bold leading-6 mb-[33px] group-hover:text-white duration-400">
               Free
             </h2>
@@ -93,7 +105,13 @@ const PlanSections = () => {
               Get started for free
             </button>
           </div>
-          <div className="free pl-[111px] pt-[82px] pb-[83px] pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-sine"
+            className="free pl-[111px] pt-[82px] pb-[83px] transition-all pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]"
+          >
             <h2 className="text-[#060689] font-space-grotesk text-[42px] font-bold leading-6 mb-[33px] group-hover:text-white duration-400">
               Professional
             </h2>
@@ -169,7 +187,13 @@ const PlanSections = () => {
               Get started
             </button>
           </div>
-          <div className="free pl-[111px] pt-[82px] pb-[83px] pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-sine"
+            className="free pl-[111px] pt-[82px] pb-[83px] pr-[27.538px] flex flex-col items-start justify-center rounded-3xl bg-white  shadow-[0_2px_12.4px_rgba(178,178,236,0.24)] group duration-400 cursor-pointer hover:bg-[#0808C1] hover:scale-[1.05]"
+          >
             <h2 className="text-[#060689] font-space-grotesk text-[42px] font-bold leading-6 mb-[33px] group-hover:text-white duration-400">
               Free
             </h2>
