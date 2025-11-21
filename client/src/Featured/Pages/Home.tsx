@@ -1,4 +1,4 @@
-import HoneTemp from "../Templates/HoneTemp";
+import HoneTemp from "../Templates/HomeTemp";
 
 const HomePage = () => {
   return (
