@@ -123,7 +123,7 @@ const Header = () => {
             <img
               src={currentLang.img}
               alt=""
-              className="w-[32px] h-[32px] object-contain"
+              className="w-8 h-8 object-contain"
             />
           </li>
         </ul>
