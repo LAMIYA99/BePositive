@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 const BrandSection = () => {
   return (
     <section className="my-[72px]">
-      <Marquee speed={50} gradient={false} pauseOnHover={true}>
+      <Marquee speed={50} gradient={false} pauseOnHover={false}>
         <div className="flex items-center gap-7">
           <div>
             <img

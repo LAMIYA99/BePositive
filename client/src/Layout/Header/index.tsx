@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="container  flex items-center justify-between mx-auto py-10">
+    <header className="container max-w-[1440px]  flex items-center justify-between mx-auto py-10">
       <div>
         <img
           src="/Logo.png"
